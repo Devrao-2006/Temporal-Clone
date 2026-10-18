@@ -1,6 +1,6 @@
 Maybe 4 - 5 tables - these are my initial tables IDEA
 
-#Table 1  - Workflow Table
+# Table 1  - Workflow Table
 id - Workflow-ID
 name - human readable name
 description - what is this workflow itended to do
@@ -8,7 +8,7 @@ version - Workflow - version(not needed it's a little advanced scenwerio)
 created-at - When this workflow was created
 updated-at - when this was last updated
 
-#Table 2 - Activity Table
+# Table 2 - Activity Table
 id - Activity-ID
 name - human readable name
 description - what is this actiivity meant to do - also for human to read
@@ -17,7 +17,7 @@ output_schema - Whats the Output Structrue of this activity (Response Structure)
 created-at
 updated-at
 
-#Table 3 Execution ID
+# Table 3 Execution ID
 id - Execution id
 workflow-id - (What workflow's execution is this)
 status - Here the status means whether its in running its completed or it failed
@@ -25,7 +25,8 @@ created-at
 updated-at
 completed-at(??) - to know when this was completed or failed
 
-#Table 4 - State log table - The Most important one (I dont have definitive structrue of what this table should look like but i will try to keep it closest to it vision/final-working should look like)
+# Table 4 - State log table - The Most important one (I dont have definitive structrue of what this table should look like but i will try to keep it closest to it vision/final-working should look like)
+
 execution-id - Execution-id
 step-no - What step was completed
 acticity-id - what acticity it is associated with
