@@ -21,4 +21,8 @@
 (GET) execution  
 (GET) execution/:id  //to know the status as well  
 
-### Outgoing Request (In - progress)
+### Outgoing Request (To Matching Server)
+
+When an execution starts or when a step completes and triggers the next step, the Server dispatches a task to the Matching Server so workers can pick it up.
+
+(POST) task/dispatch
